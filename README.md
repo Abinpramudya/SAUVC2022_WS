@@ -49,41 +49,40 @@ The robot we developed for this competition is called Narudaka. Derived from the
    `catkin build`  
 
   
-## Daftar Package di Dalam ROS  
-[Penjelasan Grafik](https://drive.google.com/file/d/1_YcntQp2rwqfWeKyqn3RxTwLYM25xT1f/view)  
+## list of package in ROS  
+[Explanation Chart](https://drive.google.com/file/d/1_YcntQp2rwqfWeKyqn3RxTwLYM25xT1f/view)  
 
-| Nama Package | Fungsi  |
+| Package Name | Function |
 | ----------- | ----------- |
-| master_package | Memberikan data input dan data output STM32  |
-| cv_package | Penglihatan Komputer |
-| mission_package | Menetukan kondisi misi |
-| positioning_package | Mapping Lokasi Robot |
-| movement_package | Pergerakan Robot |
-| servo_package | Pergerakan servo kamera depan |
+| master_package | Provides input data and output data of STM32 |
+| cv_package | Computer Vision
+| mission_package | Defines mission conditions |
+| positioning_package | Mapping Robot Location |
+| movement_package | Robot Movement
+| servo_package | Front camera servo movement
 
 
-## Penjelasan Tiap Package
-Berikut adalah penjelasan tiap - tiap package yang digunakan (urutan penjalanan program harus sesuai urutan):  
+## Explanation of Each Package
+The following is an explanation of each package used (the order of program execution must be in order):  
 
 ### A.master_package
-1. Deskripsi:   
-   Package yang digunakan untuk memberikan data input output STM32  
+1. Description:   
+   Package used to provide STM32 input and output data.  
 2. Message:   
    master_ros.msg  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string ros_movement  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int16 ros_servo_kamera  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int64 servo_kamera  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int16 ros_servo_camera  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int64 servo_camera  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int64 servo_gripper  
    master_stm32.msg    
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string stm32_movement  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int64 stm32_heading  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int64 stm32_depth  
-3. Penjelasan:   
-   Pengiriman dan penerimaan data menggunakan PySerial. Dalam penggunaan PySerial, diwajibkan untuk melakukan encode ASCII agar didapatkan nilai yang benar.  
-4. Penggunaan:  
-   Pastikan berada di directory `ROS_SAUVC_2022_Main_WS`  
-   Jalankan command `source devel/setup.bash`  
-   Jalankan command `rosrun master_package master_node.py`  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stm32_movement string  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int64 stm32_heading  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int64 stm32_depth  
+3. Explanation:   
+   Send and receive data using PySerial. In using PySerial, it is required to encode ASCII to get the correct value.  
+4. Usage:  
+   Make sure it is in the `ROS_SAUVC_2022_Main_WS` directory.  
+   Run the command `source devel/setup
    
 ### B.cv_package
 1. Deskripsi:  
