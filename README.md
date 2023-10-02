@@ -36,16 +36,16 @@ The robot we developed for this competition is called Narudaka. Derived from the
 
 
 ## Requirements
-1. Sudah terinstall ROS (caranya lihat [disini](https://wiki.ros.org/Installation/Ubuntu))
-2. Menginstall seluruh library python yang dibutuhkan oleh YoloV5
+1. ROS installed (see [here](https://wiki.ros.org/Installation/Ubuntu))
+2. Install all python libraries required by YoloV5
    
    `cd src/cv_package/scripts/yolov5`  
    `pip install -r requirements.txt`  
-   NB: Pastikan koneksi stabil  
-3. Menghapus build yang telah ada   
-   Pastikan berada di directory `ROS_SAUVC_2022_Main_WS`    
-   Menghapus build yang pernah ada `catkin clean`  
-4. Melakukan catkin build  
+   NB: Make sure the connection is stable  
+3. Delete the existing build   
+   Make sure it is in the `ROS_SAUVC_2022_Main_WS` directory    
+   Delete existing build `catkin clean`  
+4. Perform catkin build  
    `catkin build`  
 
   
