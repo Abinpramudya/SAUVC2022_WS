@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+devel_space: /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel
+install: false
+install_space: /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/install
+profile: default
+source_space: /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/src
+workspace: /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS
+=======
+devel_space: /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel
+install: false
+install_space: /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/install
+profile: default
+source_space: /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/src
+workspace: /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS
+>>>>>>> fbdd64b166b645d189148d2a559d8287f156108d

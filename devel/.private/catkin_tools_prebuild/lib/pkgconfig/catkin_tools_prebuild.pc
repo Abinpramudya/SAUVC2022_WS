@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+prefix=/home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/.private/catkin_tools_prebuild
+=======
+prefix=/home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/.private/catkin_tools_prebuild
+>>>>>>> fbdd64b166b645d189148d2a559d8287f156108d
+
+Name: catkin_tools_prebuild
+Description: Description of catkin_tools_prebuild
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

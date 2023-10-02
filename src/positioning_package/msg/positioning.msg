@@ -1,0 +1,2 @@
+float64 posisi_x
+float64 posisi_z

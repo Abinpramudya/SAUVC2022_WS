@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/banyubramanta/workspace/workspace_darurat/devel/lib/python3/dist-packages",
+        "/home/banyubramanta/workspace/workspace_trial/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/banyubramanta/workspace/workspace_darurat/devel/lib/python3/dist-packages",
+        "/home/banyubramanta/workspace/workspace_trial/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "ros.distro": "noetic"
+}

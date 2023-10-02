@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+prefix=/home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/.private/master_package
+=======
+prefix=/home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/.private/master_package
+>>>>>>> fbdd64b166b645d189148d2a559d8287f156108d
+
+Name: master_package
+Description: Description of master_package
+Version: 0.0.0
+<<<<<<< HEAD
+Cflags: -I/home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/.private/master_package/include
+=======
+Cflags: -I/home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/.private/master_package/include
+>>>>>>> fbdd64b166b645d189148d2a559d8287f156108d
+Libs: -L${prefix}/lib 
+Requires: 

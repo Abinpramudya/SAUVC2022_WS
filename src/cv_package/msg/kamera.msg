@@ -1,0 +1,10 @@
+string object_label
+float64 probability
+int64 xmin_cv
+int64 ymin_cv
+int64 xmax_cv
+int64 ymax_cv
+float64 xcenter_cv
+float64 ycenter_cv
+int64 width
+int64 height

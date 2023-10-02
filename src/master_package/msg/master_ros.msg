@@ -1,0 +1,8 @@
+string ros_movement
+int16 ros_servo_kamera
+int64 ros_speed_maju
+int64 ros_speed_mundur
+int64 ros_speed_kiri
+int64 ros_speed_kanan
+int64 servo_kamera
+int64 ros_servo_gripper

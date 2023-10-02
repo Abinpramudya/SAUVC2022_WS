@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./local_setup.bash
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./env.sh
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./setup.bash
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./cmake.lock
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./_setup_util.py
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./setup.sh
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./setup.zsh
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./local_setup.zsh
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/./local_setup.sh
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+=======
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./local_setup.zsh
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./local_setup.sh
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./setup.zsh
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./cmake.lock
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./local_setup.bash
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./env.sh
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./_setup_util.py
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./setup.bash
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/./setup.sh
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+>>>>>>> fbdd64b166b645d189148d2a559d8287f156108d

@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+prefix=/home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/install
+=======
+prefix=/home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/install
+>>>>>>> fbdd64b166b645d189148d2a559d8287f156108d
+
+Name: mission_package
+Description: Description of mission_package
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

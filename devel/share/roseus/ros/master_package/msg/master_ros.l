@@ -1,0 +1,1 @@
+/home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/.private/master_package/share/roseus/ros/master_package/msg/master_ros.l

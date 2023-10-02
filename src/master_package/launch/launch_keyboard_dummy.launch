@@ -1,0 +1,8 @@
+<launch>
+  
+  <node pkg = "master_package" type = "master_dummy.py" name = "master_node" output = "screen"/>
+  <node pkg = "positioning_package" type = "positioning_node.py" name = "positioning_node" output = "screen"/>
+  <node pkg = "mission_package" type = "mission_node.py" name = "mission_node" output = "screen"/>
+  <node pkg = "movement_package" type = "keyboard.py" name = "teleop_node" output = "screen"/>
+  
+</launch>

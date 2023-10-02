@@ -1,0 +1,6 @@
+- setup-file:
+<<<<<<< HEAD
+    local-name: /home/argadewanata/Documents/Banyubramanta/SAUVC_2022/ROS_SAUVC_2022_Main_WS/devel/.private/mission_package/setup.sh
+=======
+    local-name: /home/abin/kumpulan_workspace/git/ROS_SAUVC_2022_Main_WS/devel/.private/mission_package/setup.sh
+>>>>>>> fbdd64b166b645d189148d2a559d8287f156108d
