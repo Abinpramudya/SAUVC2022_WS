@@ -1,8 +1,8 @@
 # Workspace Main Stage ROS SAUVC 2022 Banyubramanta ITS
-Repository Banyubramanta ITS untuk perlombaan Singapore Autonomous Underwater Vehicle Challange (SAUVC) 2022 dengan implementasi Robot Operating System (ROS).
+Repository Banyubramanta ITS for the Singapore Autonomous Underwater Vehicle Challange (SAUVC) 2022 competition with the implementation of the Robot Operating System (ROS).
 
-## Catatan
-Dibuat dan dikembangkan menggunakan ROS Noetic dari Juni 2022 hingga September 2022 dengan sistem operasi Ubuntu 20.04 LTS. Workspace ini dikembangkan oleh Crew 3,4,dan 5 yang terdiri atas:
+## Notes
+Created and developed using ROS Noetic from June 2022 to September 2022 with Ubuntu 20.04 LTS operating system. This workspace was developed by Crew 3, 4, and 5 consisting of:
 1. Muhammad Firman Riyadi  
 2. Husnan  
 3. Muhammad Ghiffari Astaudi  
@@ -11,28 +11,29 @@ Dibuat dan dikembangkan menggunakan ROS Noetic dari Juni 2022 hingga September 2
 6. Alfito Bramoda
 7. Rere Arga Dewanata
 
-## Daftar Isi  
-- [Spesifikasi Robot](#spesifikasi-robot)  
+## Table of Contents  
+- [Robot Specifications](#robot-specifications)  
 - [Requirements](#requirements)  
-- [Daftar Package](#daftar-package-di-dalam-ros)
-- [Penjelasan Tiap Package](#penjelasan-tiap-package)  
-- [Cara Labeling Dengan Roboflow](#cara-labeling-dengan-roboflow)  
-- [Instruksi Penyambungan STM32 dengan ROS](#instruksi-penyambungan-stm32-dengan-ros)     
-- [Instruksi Penyambungan Antara Mini PC dengan Laptop](#instruksi-penyambungan-antara-mini-pc-dengan-laptop)  
-- [Tata Cara Melakukan Perekaman Data Log Pada ROS](#tata-cara-melakukan-perekaman-data-log-pada-ros)
-- [Kendala dan Solusi](#kendala-dan-solusi)    
-- [Kendala dan Solusi di Singapura](#kendala-dan-solusi-di-singapura)  
-- [Rekaman Penurunan Ilmu](#rekaman-penurunan-ilmu)
+- [List of Package](#list-of-packages-in-ros)
+- [Explanation of Each Package](#explanation-of-each-package)  
+- [How to Label with Roboflow](#how-to-label-with-roboflow)  
+- [STM32 Connection Instruction with ROS](#instruction-connection-stm32-with-ros)     
+- [Connection Instruction between Mini PC and Laptop](#instruction-connection-between-mini-pc-with-laptop)  
+- [Procedure for Recording Log Data on ROS](#tata-cara-doing-log-data-recording-on-ros)
+- [Obstacles and Solutions](#obstacles-and-solutions)    
+- [Obstacles and Solutions in Singapore](#obstacles-and-solutions-in-singapore)  
+- [Science Derivation Recording](#science-descent-recording)
 
   
-## Spesifikasi Robot
-Robot yang kami develop pada perlombaan ini dinamakan Narudaka. Berasal dari Bahasa Jawa yang terdiri dari kata "Nara = Raja" dan "Udaka = air" ketika digabung melebur menjadi "NARUDAKA" artinya raja perairan. Narudaka memiliki beberapa komponen inti, yaitu:
+## Robot Specifications
+The robot we developed for this competition is called Narudaka. Derived from the Javanese language consisting of the words "Nara = King" and "Udaka = water" when combined merge into "NARUDAKA" meaning the king of the waters. Narudaka has several core components, namely:
 1. Mini PC: Intel NUC11PAHi7 (Intel Core i7 Gen 11)
-2. Mikrokontroller: STM32F407G
-3. Kamera: Rexus Daxa Trusight 
-4. Baterai: Li-Po 4 Sel 5000 MAH 2 buah (untuk selain mini pc) & Li-Ion 5 sel 3000 MAH 1 buah (untuk mini pc)  
+2. Microcontroller: STM32F407G
+3. Camera: Rexus Daxa Trusight 
+4. Battery: Li-Po 4 Cell 5000 MAH 2 pieces (for other than mini pc) & Li-Ion 5 cell 3000 MAH 1 piece (for mini pc)  
 5. Depth Sensor: MS5837 Blue Robotics  
 6. Gyro: GY-25  
+
 
 ## Requirements
 1. Sudah terinstall ROS (caranya lihat [disini](https://wiki.ros.org/Installation/Ubuntu))
