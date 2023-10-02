@@ -6,7 +6,7 @@ Created and developed using ROS Noetic from June 2022 to September 2022 with Ubu
 1. Muhammad Firman Riyadi  
 2. Husnan  
 3. Muhammad Ghiffari Astaudi  
-4. Azka Bintang Pramudya  
+4. Muhammad Azka Bintang Pramudya  
 5. Fadhil Rasyidin Parinduri  
 6. Alfito Bramoda
 7. Rere Arga Dewanata
